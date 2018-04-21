@@ -1,0 +1,44 @@
+{
+  "name": "HelloWorld",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "ref": "github.com/yourusername/yourrepository",
+  "description": "activity description",
+  "author": "Your Name <you.name@example.org>",
+  "inputs":[
+    {
+		"name": "accountSid",
+		"type": "string"
+	},
+	{
+		"name": "authToken",
+		"type": "string"
+	},
+	{
+		"name": "urlString",
+		"type": "string"
+	},
+	{
+		"name": "msgData",
+		"type": "string"
+	},
+	{
+		"name": "to",
+		"type": "string"
+	},
+	{
+		"name": "from",
+		"type": "string"
+	}
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    },
+	{
+      "name": "error",
+      "type": "string"
+    }
+  ]
+}
