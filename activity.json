@@ -1,5 +1,5 @@
 {
-  "name": "HelloWorld",
+  "name": "sms",
   "version": "0.0.1",
   "type": "flogo:activity",
   "ref": "github.com/yourusername/yourrepository",

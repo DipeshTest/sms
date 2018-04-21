@@ -1,4 +1,4 @@
-package HelloWorld
+package sms
 
 import (
 	"encoding/json"
